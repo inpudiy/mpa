@@ -2,6 +2,8 @@
 
 MPA is a 42-key split keyboard built on the CHOC V1 platform using Chocfox spacing.
 
+![Bottom](https://raw.githubusercontent.com/inpudiy/mpa/refs/heads/main/gallery/side.jpg)
+
 ## Features
 
 - Supports Chocfox spacing (17.5 × 17.5 mm)  
@@ -30,3 +32,8 @@ MPA is a 42-key split keyboard built on the CHOC V1 platform using Chocfox spaci
 | Chocfox 1U keycaps                                           | 42  |
 
 ## PCB Image
+
+![Bottom](https://raw.githubusercontent.com/inpudiy/mpa/refs/heads/main/gallery/top.png)
+
+
+![Bottom](https://raw.githubusercontent.com/inpudiy/mpa/refs/heads/main/gallery/bottom.png)
