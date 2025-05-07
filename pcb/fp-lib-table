@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "inpudiy")(type "KiCad")(uri "${KIPRJMOD}/lib/inpudiy.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,86 @@
+(footprint "SOD323"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Diode"
+		(at -1.852415 0.234861 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "903d03bc-deb4-4474-833f-977a6109ba2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Val**"
+		(at -1.852415 0.234861 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0d3ac8a-9b7e-4b3d-9eb2-37f86f0f9fd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.176618 -0.650989 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bdfa117-e610-4ae0-b1be-e3bbbf2a4882")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.176618 -0.650989 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "073f0b44-a5be-40da-a9fe-51cc069c70aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "84883322-99d6-469c-a968-ee30a272ade6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -1.25 270)
+		(size 1 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3731dcf8-9509-4b31-a302-236770b2671e")
+	)
+	(pad "2" smd circle
+		(at 0 1.25 270)
+		(size 1 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "ed2e41a0-4fa6-4d6d-81fe-26e5727b0c3f")
+	)
+	(embedded_fonts no)
+)

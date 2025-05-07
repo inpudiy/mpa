@@ -1,0 +1,102 @@
+(footprint "Hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Hole"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "2ef1c8a4-fd69-46b0-b360-1f4521f4a0da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Hole"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e92307c-84b0-4a40-a6c8-245a1b73d34f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bf0ee74-1921-4dd4-b3c3-45f871574a07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f43de662-a1f6-476b-929f-4fb124ef187a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "" np_thru_hole circle
+		(at 0 -1.75 180)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "aaf442fa-0700-4061-9b48-8cf13bacb8cf")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1 180)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2be5f565-eb60-4c71-ace8-4d22c46695c2")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -0.25 180)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c04ddcee-a75b-4b74-9715-af68cb0e2d23")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0.5 180)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "67d6541c-26b5-4e1c-bf68-5b03e27afe5c")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.25 180)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "93fa24ba-30af-47e3-ab51-662d30422c74")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 2 180)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "82935cb1-7d7a-42d1-9847-3a3936735fd4")
+	)
+	(embedded_fonts no)
+)

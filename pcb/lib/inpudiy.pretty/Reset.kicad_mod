@@ -1,0 +1,113 @@
+(footprint "Reset"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Reset"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e97cf9c7-7590-458a-b23b-3e7da78977c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b167514-1a52-4159-b4f1-2c26df15f569")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb3a6d95-00a3-46f2-be44-a8f50ee0f036")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2f31194-cdff-4eb3-8ab7-f13059082632")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 1.5)
+		(end -1.9 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "e0cccdb4-252a-448e-b0cf-e4e1bbc715b7")
+	)
+	(fp_line
+		(start 2 -1.5)
+		(end -1.9 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "57415103-8e8a-49ae-bfa5-391f2fd308f8")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end -1.9 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "47fd3727-3b2c-46df-9c37-891042f8fee4")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end 2 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "290b7587-1b01-410d-a239-9814ee0509e8")
+	)
+	(pad "1" smd roundrect
+		(at -2.35 0)
+		(size 1.2 1.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "0d31e39d-755b-48ca-b085-22ccacca0554")
+	)
+	(pad "2" smd roundrect
+		(at 2.45 0)
+		(size 1.2 1.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "5c119fcf-3ed9-4846-ad40-9800fdf3f555")
+	)
+	(embedded_fonts no)
+)
